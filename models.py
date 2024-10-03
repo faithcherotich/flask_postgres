@@ -9,7 +9,8 @@ class Music(db.Model):
     title= db.Column(db.String)
     artist= db.Column(db.String)
     album_image=db.Column(db.Text)
-    # album_link= db.Column(db.Text)
+   
+   
 
 
     
